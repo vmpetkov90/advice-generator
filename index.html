@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Advice Generator</title>
+</head>
+
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+    <main>
+        <section 
+            class="bg-gray-700 max-w-md w-full rounded-xl font-sans text-center p-10 shadow-lg"
+            aria-live="polite"
+        >
+            <header>
+                <h2 
+                    id="advice-id" 
+                    class="text-emerald-400 uppercase font-bold text-xs tracking-[5px] mb-6"
+                >
+                    Loading...
+                </h2>
+            </header>
+
+            <p 
+                id="advice-text" 
+                class="text-white text-3xl font-medium leading-tight mb-8"
+            >
+                Please wait while we fetch advice.
+            </p>
+
+            <footer class="relative">
+                <picture>
+                    <source srcset="images/pattern-divider-mobile.svg" media="(max-width: 700px)">
+                    <source srcset="images/pattern-divider-desktop.svg">
+                    <img 
+                        src="images/pattern-divider-desktop.svg" 
+                        alt="Decorative divider" 
+                        class="mx-auto"
+                    >
+        
+
+                <button 
+                    id="advice-btn"
+                    class="rounded-full bg-emerald-400 p-4 absolute -bottom-11 left-1/2 -translate-x-1/2 translate-y-1/2 cursor-pointer hover:shadow-[0_0_20px_20px_rgba(0,212,146,0.4)] transition-shadow"
+                >
+                    <img src="images/icon-dice.svg" alt="Generate new advice">
+                </button>
+            </footer>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
