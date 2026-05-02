@@ -19,10 +19,8 @@ https://vmpetkov90.github.io/advice-generator/
 
 ## 📸 Screenshots
 
-### 🧠 Advice Generator UI
-![Advice Generator Screenshot](https://via.placeholder.com/1000x600?text=Advice+Generator+Screenshot)
+<img width="100%" alt="Screenshot 2026-05-02 234524" src="https://github.com/user-attachments/assets/724a0d78-35ca-431e-9a62-bdff79c2e907" />
 
-*(Replace with your real screenshot.)*
 
 ---
 
